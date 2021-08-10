@@ -1,12 +1,3 @@
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 5rem;
-}
-
 body {
   font-family: "Inter", sans-serif;
 }
@@ -20,17 +11,16 @@ a img {
   padding-left: 10px;
 }
 
-#me img {
-  width: 30%;
-  height: auto;
-  display: block;
-  margin: auto;
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  margin-top: 30px;
 }
 
 h1 {
   color: black;
   text-align: center;
-  padding-top: 0.5rem;
 }
 
 h1:hover {
@@ -42,16 +32,12 @@ h3 {
   text-align: center;
 }
 
-p {
-  text-align: center;
-}
-
 h5 {
   text-align: center;
 }
 
-.content p {
-  margin: 2% 12%;
+p {
+  text-align: center;
 }
 
 .parent {
@@ -65,28 +51,6 @@ h5 {
   padding-right: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.portcontent {
-  padding-top: 0.5rem;
-  padding-bottom: 0.3rem;
-  text-align: center;
-}
-
-.portcontent h5 {
-  font-size: 3rem;
-  padding-top: 5rem;
-}
-
-.card-body button {
-  margin: 1rem auto;
-}
-
-.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-  margin-top: 30px;
 }
 
 a {
@@ -118,13 +82,12 @@ a:active {
 
 .footer {
   /* display: flex;
-  justify-content: center;
-  align-items: center; */
+    justify-content: center;
+    align-items: center; */
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 2.5rem;
   padding: 0;
   margin: 0;
 }
@@ -137,8 +100,8 @@ a:active {
 
 #footer {
   /* position: absolute;
-  bottom: 0;
-  width: 100%; */
+    bottom: 0;
+    width: 100%; */
 }
 
 #footer a {

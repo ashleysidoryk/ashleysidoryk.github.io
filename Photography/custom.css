@@ -1,6 +1,6 @@
 .content {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 15px;
   margin-left: 15px;
   margin-bottom: 40px;
@@ -10,8 +10,21 @@
   font-size: 65px;
 }
 
+.content p {
+  margin: 2% 12%;
+}
+
+a img {
+  width: auto;
+  height: 55px;
+  margin: auto;
+  display: block;
+  width: auto;
+  padding-left: 10px;
+}
+
 .thisCarousel {
-  margin-top:50px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -19,9 +32,13 @@
   height: 1080px;
 }
 
+.carousel-item button {
+  margin-bottom: 30px;
+}
+
 .gallery img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -32,25 +49,29 @@
 }
 
 .card .card-body {
-  color: rgb(0,0,0)!important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .card .card-body .card-text {
   text-align: center;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 .social {
-  float:right;
+  float: right;
 }
 
-.social img{
-  height:50px;
-  width:50px;
+.social img {
+  height: 50px;
+  width: 50px;
 }
 
-nav p {
-  color: rgba(255,255,255,.8);
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* nav p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 nav ul {
@@ -58,26 +79,26 @@ nav ul {
 }
 
 .navbar-dark .navbar-toggler {
-  border-color: white!important;
+  border-color: white !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
   display: inline-block;
 }
 
 .navbar-dark:hover .navbar-nav:hover .nav-link:hover {
-color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-dark .navbar-brand {
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-dark:hover .navbar-brand:hover {
-  color: rgba(255,255,255,1);
-}
+  color: rgba(255, 255, 255, 1);
+} */
 
 .bg-light {
-background-color: rgb(0,0,0)!important;
+  background-color: rgb(0, 0, 0) !important;
 }
