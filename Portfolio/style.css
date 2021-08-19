@@ -18,13 +18,28 @@ a img {
   margin-top: 30px;
 }
 
-h1 {
+/* h1 {
   color: black;
   text-align: center;
 }
 
 h1:hover {
   color: #556b2f;
+} */
+
+h1 {
+  color: white;
+  /* float: right; */
+  text-align: center;
+  padding-right: 2em;
+  padding-top: 4.5em;
+  padding-bottom: 0.5em;
+}
+
+.headerImg p {
+  color: white;
+  font-weight: 200;
+  padding-right: 2em;
 }
 
 h3 {
@@ -32,12 +47,23 @@ h3 {
   text-align: center;
 }
 
-h5 {
+p {
   text-align: center;
 }
 
-p {
-  text-align: center;
+.headerImg {
+  background-color: #71abe3;
+  height: 500px;
+}
+
+#wanderImg {
+  height: 500px;
+  padding-left: 4em;
+  float: left;
+}
+
+.caseStudy {
+  padding-top: 2em;
 }
 
 .parent {
@@ -96,12 +122,6 @@ a:active {
   width: auto;
   height: 25px;
   padding-bottom: 10px;
-}
-
-#footer {
-  /* position: absolute;
-    bottom: 0;
-    width: 100%; */
 }
 
 #footer a {

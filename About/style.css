@@ -27,13 +27,21 @@ a img {
   margin: auto;
 }
 
-h1 {
-  color: black;
-  text-align: center;
-  padding-top: 0.5rem;
+#aboutMe {
+  width: 35%;
+  float: left;
+  padding-top: 2.5em;
+  padding-left: 4em;
 }
 
-h1:hover {
+h2 {
+  color: black;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+h2:hover {
   color: #556b2f;
 }
 
@@ -121,29 +129,46 @@ a:active {
   color: #556b2f;
 }
 
-.footer {
+/* button {
+  outline-color: 556b2f;
+} */
+
+.btn-outline-dark,
+.btn-outline-dark:active,
+.btn-outline-dark:visited {
+  color: #556b2f !important;
+  border-color: #556b2f !important;
+}
+
+.btn-outline-dark:hover {
+  color: white !important;
+  background-color: #556b2f !important;
+}
+
+#buttonSec {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#footer {
   /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  position: absolute;
-  bottom: 0;
+    justify-content: center;
+    align-items: center; */
+
   width: 100%;
   text-align: center;
   height: 2.5rem;
   padding: 0;
   margin: 0;
+  padding-top: 2rem;
 }
 
 #footer img {
   width: auto;
   height: 25px;
   padding-bottom: 10px;
-}
-
-#footer {
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
 }
 
 #footer a {
