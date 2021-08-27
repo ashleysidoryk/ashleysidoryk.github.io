@@ -1,3 +1,12 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -30,25 +39,39 @@ h1:hover {
 h1 {
   color: white;
   /* float: right; */
-  text-align: center;
+
   padding-right: 2em;
   padding-top: 4.5em;
   padding-bottom: 0.5em;
+}
+
+.headerImg h1 {
+  text-align: center;
 }
 
 .headerImg p {
   color: white;
   font-weight: 200;
   padding-right: 2em;
+  text-align: center;
 }
 
 h3 {
-  color: black;
-  text-align: center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: #71abe3;
 }
 
-p {
+h5 {
+  padding-bottom: 0.3em;
+  padding-top: 0.5em;
+}
+
+h6 {
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #71abe3;
 }
 
 .headerImg {
@@ -63,7 +86,9 @@ p {
 }
 
 .caseStudy {
-  padding-top: 2em;
+  padding-top: 2.5em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .parent {
@@ -114,6 +139,7 @@ a:active {
   bottom: 0;
   width: 100%;
   text-align: center;
+  height: 2.5rem;
   padding: 0;
   margin: 0;
 }
@@ -144,4 +170,72 @@ a:active {
 
 .navbar-nav {
   margin-left: auto;
+}
+
+#stickyNotes {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+#stickyNotes h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#stickyNotes p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#stickyNotes ul,
+#stickyNotes li {
+  list-style: none;
+}
+#stickyNotes ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#stickyNotes ul li a {
+  text-decoration: none;
+  color: #000;
+  background: #cce6ff;
+  display: block;
+  height: 15em;
+  width: 15em;
+  padding: 1em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.3);
+  transform: rotate(-6deg);
+  transition: transform 0.15s linear;
+}
+
+#stickyNotes ul li:nth-child(even) a {
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  background: #ffc;
+}
+#stickyNotes ul li:nth-child(3n) a {
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #cce6ff;
+}
+#stickyNotes ul li:nth-child(5n) a {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+  background: #ffc;
+}
+
+#stickyNotes ul li a:hover,
+#stickyNotes ul li a:focus {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+
+#stickyNotes ul li {
+  margin: 1em;
 }
