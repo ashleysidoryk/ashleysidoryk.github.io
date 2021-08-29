@@ -27,6 +27,13 @@ a img {
   margin: auto;
 }
 
+#aboutContent {
+  display: block;
+  padding-top: 1em;
+  padding-right: 5em;
+  padding-left: 35em;
+}
+
 #aboutMe {
   width: 35%;
   float: left;
