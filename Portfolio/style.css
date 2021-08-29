@@ -85,6 +85,14 @@ h6 {
   float: left;
 }
 
+#wanderWire {
+  width: 80%;
+  padding-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .caseStudy {
   padding-top: 2.5em;
   margin-left: 20%;
