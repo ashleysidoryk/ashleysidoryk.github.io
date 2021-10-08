@@ -86,11 +86,25 @@ h6 {
 }
 
 #wanderWire {
-  width: 80%;
+  width: 85%;
   padding-bottom: 1em;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#appMap {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#qrcode {
+  width: 20%;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .caseStudy {
