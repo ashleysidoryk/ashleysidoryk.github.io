@@ -20,25 +20,34 @@ a img {
   padding-left: 10px;
 }
 
-#me img {
+/* #me img {
   width: 30%;
   height: auto;
   display: block;
   margin: auto;
-}
+} */
 
 #aboutContent {
-  display: block;
+  /* display: block; */
+  /* float: right; */
   padding-top: 1em;
   padding-right: 5em;
-  padding-left: 35em;
+  padding-left: 4em;
+  padding-bottom: 4em;
+}
+
+#aboutContent p,
+h2 {
+  /* display: block; */
+  /* float: right; */
+  padding-top: 1em;
 }
 
 #aboutMe {
   width: 35%;
   float: left;
   padding-top: 2.5em;
-  padding-left: 4em;
+  padding-right: 4em;
 }
 
 h2 {
