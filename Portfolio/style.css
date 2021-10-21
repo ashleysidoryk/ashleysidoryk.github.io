@@ -100,6 +100,17 @@ h6 {
   margin-right: auto;
 }
 
+#uiImg {
+  display: flex;
+}
+
+#uiImg {
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #qrcode {
   width: 20%;
   /* display: block;
