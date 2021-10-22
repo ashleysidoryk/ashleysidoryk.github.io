@@ -11,20 +11,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-@media only screen and (min-width: 480px) {
-  .headerImg {
-    background-color: #71abe3;
-    height: 800px;
-  }
-
-  #wanderImg {
-    width: auto;
-    height: 200px;
-    padding-left: 4em;
-    float: left;
-  }
-}
-
 a img {
   width: auto;
   height: 55px;
